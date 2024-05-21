@@ -16,7 +16,7 @@ In our [paper](https://arxiv.org/abs/2311.09033), we showcase three potential us
 
 Here are example sentences from MELA:
 
-![MELAexamples](figures/table1.png)
+![MELAexamples](figures/Table1.png)
 
 ## Data
 
