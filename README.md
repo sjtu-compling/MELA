@@ -14,6 +14,10 @@ In our [paper](https://arxiv.org/abs/2311.09033), we showcase three potential us
 - Cross-lingual transfer
 - Syntax acquisition
 
+Here are example sentences from MELA:
+
+![MELA Data Splits](figures/table1.pdf)
+
 ## Data
 
 **Note that we have two versions of data splits: 1) ``data/v1.0``, and 2) ``data/v1.1``. Differences lie in *low-resource* language (see prompt in ``prompts.txt``).**
