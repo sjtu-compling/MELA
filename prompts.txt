@@ -1,0 +1,29 @@
+# 0-shot
+Determine whether the following sentence(s) violate certain linguistic constraints. If yes, then it is "unacceptable"; otherwise, "acceptable".
+
+Sentence: {This is a test sentence.}
+Determine whether this sentence is acceptable or unacceptable?
+A. Acceptable
+B. Unacceptable
+Answer: 
+
+# 2-shot
+Determine whether the following sentence(s) violate certain linguistic constraints. If yes, then it is "unacceptable"; otherwise, "acceptable".
+
+Sentence: {This is a good example.}
+Determine whether this sentence is acceptable or unacceptable?
+A. Acceptable
+B. Unacceptable
+Answer: A
+
+Sentence: {This is a bad example.}
+Determine whether this sentence is acceptable or unacceptable?
+A. Acceptable
+B. Unacceptable
+Answer: B
+
+Sentence: {This is a test sentence.}
+Determine whether this sentence is acceptable or unacceptable?
+A. Acceptable
+B. Unacceptable
+Answer: 
