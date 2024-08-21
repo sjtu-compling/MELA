@@ -4,6 +4,33 @@ This repository contains data for the MELA (Multilingual Evaluation of Linguisti
 
 **Note that to prevent data contamination, we put the data in a zip file with the password: 200240.**
 
+## News 🔥🔥🔥
+
+**MELA is now available in [lm evaluation harness](https://github.com/EleutherAI/lm-evaluation-harness).**
+
+Now you may evaluate your model on MELA like any other task in the harness:
+
+```
+git clone https://github.com/EleutherAI/lm-evaluation-harness
+cd lm-evaluation-harness
+pip install -e .
+
+lm_eval --model hf --model_args pretrained=[model_name_or_path] --tasks mela --device cuda:0 --num_fewshot 2 --output_path results --log_samples
+```
+
+Some models' results:
+
+|model|shot|reported in the paper|lm eval harness|
+|-|-|-|-|
+|BLOOMZ 7B|0|5.85|5.99±0.85 |
+|BLOOMZ 7B|2|4.31| 4.11±0.87 |
+|mT0 13B| 0 | 6.62 | 7.72±0.88 |
+|mT0 13B| 2 | 7.70 | 5.82±0.75 |
+|mTk 13B |0 | 2.24 | 3.16±1.01 |
+|mTk 13B |2 | 12.05 | 12.26±0.98 |
+
+
+
 ## Description
 
 MELA contains 46k acceptable and unacceptable sentences from 10 languages: English, Chinese, Italian, Russian, German, French, Spanish, Japanese, Arabic, and Icelandic. 
