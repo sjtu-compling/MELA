@@ -85,7 +85,7 @@ Ziyin Zhang, Yikang Liu, Weifang Huang, Junyu Mao, Rui Wang, Hai Hu
 If you use our dataset, please cite us plus all other corpora of linguistic acceptability used in MELA (see ``citations.bib`` file).
 
 ```
-@inproceedings{DBLP:conf/acl/ZhangLHMWH24,
+@inproceedings{Zhang2024MELA,
   author       = {Ziyin Zhang and Yikang Liu and Weifang Huang and Junyu Mao and Rui Wang and Hai Hu},
   editor       = {Lun{-}Wei Ku and Andre Martins and Vivek Srikumar},
   title        = {{MELA:} Multilingual Evaluation of Linguistic Acceptability},
