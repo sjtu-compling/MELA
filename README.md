@@ -85,13 +85,16 @@ Ziyin Zhang, Yikang Liu, Weifang Huang, Junyu Mao, Rui Wang, Hai Hu
 If you use our dataset, please cite us plus all other corpora of linguistic acceptability used in MELA (see ``citations.bib`` file).
 
 ```
-@misc{Zhang2023MELA,
-      title={MELA: Multilingual Evaluation of Linguistic Acceptability}, 
-      author={Ziyin Zhang and Yikang Liu and Weifang Huang and Junyu Mao and Rui Wang and Hai Hu},
-      year={2023},
-      eprint={2311.09033},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{DBLP:conf/acl/ZhangLHMWH24,
+  author       = {Ziyin Zhang and Yikang Liu and Weifang Huang and Junyu Mao and Rui Wang and Hai Hu},
+  editor       = {Lun{-}Wei Ku and Andre Martins and Vivek Srikumar},
+  title        = {{MELA:} Multilingual Evaluation of Linguistic Acceptability},
+  booktitle    = {Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), {ACL} 2024, Bangkok, Thailand, August 11-16, 2024},
+  pages        = {2658--2674},
+  publisher    = {Association for Computational Linguistics},
+  year         = {2024},
+  url          = {https://doi.org/10.18653/v1/2024.acl-long.146},
+  doi          = {10.18653/V1/2024.ACL-LONG.146}
 }
 ```
 
